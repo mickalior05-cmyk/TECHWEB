@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Catalogue — AutoShowcase</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container">
+    <a href="index.html" class="nav-logo">Auto<span>Showcase</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="catalogue.html" class="active">Catalogue</a></li>
+      <li><a href="details.html">Détail</a></li>
+      <li><a href="apropos.html">À propos</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="btn nav-cta">Prendre contact</a>
+    <div class="hamburger"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+<div class="nav-mobile">
+  <a href="index.html">Accueil</a>
+  <a href="catalogue.html">Catalogue</a>
+  <a href="details.html">Détail</a>
+  <a href="apropos.html">À propos</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <div class="container">
+    <p class="section-sub">Notre sélection</p>
+    <h1 class="section-title">Notre <span>Catalogue</span></h1>
+    <p>Découvrez notre collection complète de véhicules d'exception</p>
+  </div>
+</div>
+
+<div class="container">
+  <!-- FILTRES -->
+  <div class="filtres">
+    <button class="filtre-btn active" data-filter="tous">Tous</button>
+    <button class="filtre-btn" data-filter="berline">Berline</button>
+    <button class="filtre-btn" data-filter="suv">SUV</button>
+    <button class="filtre-btn" data-filter="sport">Sport</button>
+    <button class="filtre-btn" data-filter="electrique">Électrique</button>
+    <button class="filtre-btn" data-filter="cabriolet">Cabriolet</button>
+  </div>
+
+  <!-- GRILLE -->
+  <div class="catalogue-grid">
+
+    <a href="details.html" class="car-card reveal" data-type="sport">
+      <div class="car-card-img">
+        <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=600&q=80" alt="BMW M4"/>
+        <span class="car-badge">Nouveau</span>
+      </div>
+      <div class="car-card-body">
+        <p class="car-brand">BMW</p>
+        <h3 class="car-name">M4 Competition</h3>
+        <div class="car-specs">
+          <span class="car-spec">510 ch</span>
+          <span class="car-spec">3.9s</span>
+          <span class="car-spec">Essence</span>
+        </div>
+        <div class="car-footer">
+          <span class="car-price">85 900 €</span>
+          <span class="car-link">Voir la fiche</span>
+        </div>
+      </div>
+    </a>
+
+    <a href="details.html" class="car-card reveal" data-type="sport">
+      <div class="car-card-img">
+        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600&q=80" alt="Porsche 911"/>
+        <span class="car-badge">Coup de cœur</span>
+      </div>
+      <div class="car-card-body">
+        <p class="car-brand">Porsche</p>
+        <h3 class="car-name">911 Carrera S</h3>
+        <div class="car-specs">
+          <span class="car-spec">450 ch</span>
+          <span class="car-spec">4.0s</span>
+          <span class="car-spec">Essence</span>
+        </div>
+        <div class="car-footer">
+          <span class="car-price">132 500 €</span>
+          <span class="car-link">Voir la fiche</span>
+        </div>
+      </div>
+    </a>
+
+    <a href="details.html" class="car-card reveal" data-type="electrique">
+      <div class="car-card-img">
+        <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=600&q=80" alt="Mercedes EQS"/>
+        <span class="car-badge">Électrique</span>
+      </div>
+      <div class="car-card-body">
+        <p class="car-brand">Mercedes-Benz</p>
+        <h3 class="car-name">EQS AMG 53</h3>
+        <div class="car-specs">
+          <span class="car-spec">761 ch</span>
+          <span class="car-spec">3.4s</span>
+          <span class="car-spec">Électrique</span>
+        </div>
+        <div class="car-footer">
+          <span class="car-price">159 000 €</span>
+          <span class="car-link">Voir la fiche</span>
+        </div>
+      </div>
+    </a>
+
+    <a href="details.html" class="car-card reveal" data-type="suv">
+      <div class="car-card-img">
+        <img src="https://images.unsplash.com/photo-1621993202313-a41485c1e05e?w=600&q=80" alt="Range Rover"/>
+        <span class="car-badge">Premium</span>
+      </div>
+      <div class="car-card-body">
+        <p class="car-brand">Land Rover</p>
+        <h3 class="car-name">Range Rover SVR</h3>
+        <div class="car-specs">
+          <span class="car-spec">575 ch</span>
+          <span class="car-spec">4.5s</span>
+          <span class="car-spec">Essence</span>
+        </div>
+        <div class="car-footer">
+          <span class="car-price">178 000 €</span>
+          <span class="car-link">Voir la fiche</span>
+        </div>
+      </div>
+    </a>
+
+    <a href="details.html" class="car-card reveal" data-type="berline">
+      <div class="car-card-img">
+        <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&q=80" alt="Audi A8"/>
+        <span class="car-badge">Luxe</span>
+      </div>
+      <div class="car-card-body">
+        <p class="car-brand">Audi</p>
+        <h3 class="car-name">A8 L 60 TFSI</h3>
+        <div class="car-specs">
+          <span class="car-spec">460 ch</span>
+          <span class="car-spec">4.1s</span>
+          <span class="car-spec">Hybride</span>
+        </div>
+        <div class="car-footer">
+          <span class="car-price">142 000 €</span>
+          <span class="car-link">Voir la fiche</span>
+        </div>
+      </div>
+    </a>
+
+    <a href="details.html" class="car-card reveal" data-type="cabriolet">
+      <div class="car-card-img">
+        <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=600&q=80" alt="Ferrari"/>
+        <span class="car-badge">Exclusif</span>
+      </div>
+      <div class="car-card-body">
+        <p class="car-brand">Ferrari</p>
+        <h3 class="car-name">Roma Spider</h3>
+        <div class="car-specs">
+          <span class="car-spec">620 ch</span>
+          <span class="car-spec">3.4s</span>
+          <span class="car-spec">Essence</span>
+        </div>
+        <div class="car-footer">
+          <span class="car-price">238 000 €</span>
+          <span class="car-link">Voir la fiche</span>
+        </div>
+      </div>
+    </a>
+
+    <a href="details.html" class="car-card reveal" data-type="electrique">
+      <div class="car-card-img">
+        <img src="https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=600&q=80" alt="Tesla Model S"/>
+        <span class="car-badge">Électrique</span>
+      </div>
+      <div class="car-card-body">
+        <p class="car-brand">Tesla</p>
+        <h3 class="car-name">Model S Plaid</h3>
+        <div class="car-specs">
+          <span class="car-spec">1020 ch</span>
+          <span class="car-spec">2.1s</span>
+          <span class="car-spec">Électrique</span>
+        </div>
+        <div class="car-footer">
+          <span class="car-price">108 990 €</span>
+          <span class="car-link">Voir la fiche</span>
+        </div>
+      </div>
+    </a>
+
+    <a href="details.html" class="car-card reveal" data-type="suv">
+      <div class="car-card-img">
+        <img src="https://images.unsplash.com/photo-1606016159991-dfe4f2746ad5?w=600&q=80" alt="Porsche Cayenne"/>
+        <span class="car-badge">Sport</span>
+      </div>
+      <div class="car-card-body">
+        <p class="car-brand">Porsche</p>
+        <h3 class="car-name">Cayenne Turbo GT</h3>
+        <div class="car-specs">
+          <span class="car-spec">640 ch</span>
+          <span class="car-spec">3.3s</span>
+          <span class="car-spec">Essence</span>
+        </div>
+        <div class="car-footer">
+          <span class="car-price">186 400 €</span>
+          <span class="car-link">Voir la fiche</span>
+        </div>
+      </div>
+    </a>
+
+    <a href="details.html" class="car-card reveal" data-type="berline">
+      <div class="car-card-img">
+        <img src="https://images.unsplash.com/photo-1617469767264-ef4f38a4ae58?w=600&q=80" alt="Bentley Continental"/>
+        <span class="car-badge">Prestige</span>
+      </div>
+      <div class="car-card-body">
+        <p class="car-brand">Bentley</p>
+        <h3 class="car-name">Continental GT</h3>
+        <div class="car-specs">
+          <span class="car-spec">659 ch</span>
+          <span class="car-spec">3.6s</span>
+          <span class="car-spec">Essence</span>
+        </div>
+        <div class="car-footer">
+          <span class="car-price">225 000 €</span>
+          <span class="car-link">Voir la fiche</span>
+        </div>
+      </div>
+    </a>
+
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="nav-logo">Auto<span>Showcase</span></span>
+        <p>Votre showroom automobile d'exception. Passion, luxe et performance.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="catalogue.html">Catalogue</a></li>
+          <li><a href="apropos.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Marques</h4>
+        <ul>
+          <li><a href="#">BMW</a></li>
+          <li><a href="#">Mercedes</a></li>
+          <li><a href="#">Porsche</a></li>
+          <li><a href="#">Audi</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="#">045/06 01Bis Ivory Avaratra</a></li>
+          <li><a href="#">Fianarantsoa,301</a></li>
+          <li><a href="#">+261 33 68 046 49</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 <span>AutoShowcase</span>. Tous droits réservés.</p>
+      <p>Projet universitaire — Développé par <span>Michaël</span></p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

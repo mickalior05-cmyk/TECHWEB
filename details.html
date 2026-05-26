@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BMW M4 Competition — AutoShowcase</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container">
+    <a href="index.html" class="nav-logo">Auto<span>Showcase</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="catalogue.html">Catalogue</a></li>
+      <li><a href="details.html" class="active">Détail</a></li>
+      <li><a href="apropos.html">À propos</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="btn nav-cta">Demander un essai</a>
+    <div class="hamburger"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+<div class="nav-mobile">
+  <a href="index.html">Accueil</a>
+  <a href="catalogue.html">Catalogue</a>
+  <a href="details.html">Détail</a>
+  <a href="apropos.html">À propos</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<!-- BREADCRUMB -->
+<div style="padding: calc(var(--nav-h) + 20px) 0 0; background: var(--bg2); border-bottom: 1px solid var(--border);">
+  <div class="container" style="padding-bottom: 1rem;">
+    <p style="font-size:0.8rem; color: var(--muted); letter-spacing:0.1em;">
+      <a href="index.html" style="color:var(--muted);">Accueil</a>
+      &nbsp;/&nbsp;
+      <a href="catalogue.html" style="color:var(--muted);">Catalogue</a>
+      &nbsp;/&nbsp;
+      <span style="color:var(--gold);">BMW M4 Competition</span>
+    </p>
+  </div>
+</div>
+
+<!-- DETAIL SECTION -->
+<section class="section detail-section" style="padding-top:3rem;">
+  <div class="container">
+    <div class="detail-grid">
+
+      <!-- Galerie -->
+      <div class="detail-gallery reveal">
+        <div class="gallery-main">
+          <img id="main-img"
+            src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=900&q=80"
+            alt="BMW M4 Competition"/>
+        </div>
+        <div class="gallery-thumbs">
+          <div class="gallery-thumb">
+            <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?w=200&q=80" alt="Vue 1"/>
+          </div>
+          <div class="gallery-thumb">
+            <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=200&q=80" alt="Vue 2"/>
+          </div>
+          <div class="gallery-thumb">
+            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=200&q=80" alt="Vue 3"/>
+          </div>
+          <div class="gallery-thumb">
+            <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=200&q=80" alt="Vue 4"/>
+          </div>
+        </div>
+      </div>
+
+      <!-- Infos -->
+      <div class="detail-info reveal">
+        <p class="detail-brand">BMW · Sport</p>
+        <h1 class="detail-name">M4 Competition</h1>
+        <p class="detail-price">85 900 €</p>
+        <p class="detail-desc">
+          La BMW M4 Competition représente l'apogée de l'ingénierie sportive bavaroise.
+          Son moteur twin-turbo 6 cylindres en ligne offre des performances exceptionnelles,
+          associées à un châssis affiné pour une expérience de conduite incomparable sur route comme sur circuit.
+        </p>
+
+        <table class="specs-table">
+          <tbody>
+            <tr>
+              <td>Motorisation</td>
+              <td>3.0L 6 cyl. Biturbo Essence</td>
+            </tr>
+            <tr>
+              <td>Puissance</td>
+              <td>510 chevaux</td>
+            </tr>
+            <tr>
+              <td>Couple</td>
+              <td>650 Nm</td>
+            </tr>
+            <tr>
+              <td>0 à 100 km/h</td>
+              <td>3.9 secondes</td>
+            </tr>
+            <tr>
+              <td>Vitesse max</td>
+              <td>250 km/h (limité)</td>
+            </tr>
+            <tr>
+              <td>Transmission</td>
+              <td>Automatique 8 rapports xDrive</td>
+            </tr>
+            <tr>
+              <td>Consommation</td>
+              <td>10.4 L/100 km</td>
+            </tr>
+            <tr>
+              <td>Couleur</td>
+              <td>Frozen Portimao Blue</td>
+            </tr>
+            <tr>
+              <td>Année</td>
+              <td>2025</td>
+            </tr>
+            <tr>
+              <td>Disponibilité</td>
+              <td>En stock</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="detail-btns">
+          <a href="contact.html" class="btn btn-solid">Demander un essai</a>
+          <a href="catalogue.html" class="btn">Retour au catalogue</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="nav-logo">Auto<span>Showcase</span></span>
+        <p>Votre showroom automobile d'exception. Passion, luxe et performance.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="catalogue.html">Catalogue</a></li>
+          <li><a href="apropos.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Marques</h4>
+        <ul>
+          <li><a href="#">BMW</a></li>
+          <li><a href="#">Mercedes</a></li>
+          <li><a href="#">Porsche</a></li>
+          <li><a href="#">Audi</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="#">045/06 01Bis Ivory Avaratra</a></li>
+          <li><a href="#">Fianarantsoa,301</a></li>
+          <li><a href="#">+261 33 68 046 49</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 <span>AutoShowcase</span>. Tous droits réservés.</p>
+      <p>Projet universitaire — Développé par <span>Michaël</span></p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact — AutoShowcase</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container">
+    <a href="index.html" class="nav-logo">Auto<span>Showcase</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="catalogue.html">Catalogue</a></li>
+      <li><a href="details.html">Détail</a></li>
+      <li><a href="apropos.html">À propos</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <a href="catalogue.html" class="btn nav-cta">Voir les voitures</a>
+    <div class="hamburger"><span></span><span></span><span></span></div>
+  </div>
+</nav>
+<div class="nav-mobile">
+  <a href="index.html">Accueil</a>
+  <a href="catalogue.html">Catalogue</a>
+  <a href="details.html">Détail</a>
+  <a href="apropos.html">À propos</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <div class="container">
+    <p class="section-sub">Parlons ensemble</p>
+    <h1 class="section-title">Nous <span>Contacter</span></h1>
+    <p>Notre équipe est disponible pour répondre à toutes vos questions</p>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- Infos -->
+      <div class="contact-info reveal">
+        <h3>Nos <span style="color:var(--gold);">Coordonnées</span></h3>
+
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div>
+            <p class="contact-label">Adresse</p>
+            <p class="contact-val">045/06 01 bis Ivory Avaratra<br/>301 FIANARANTSOA, Madagascar</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div>
+            <p class="contact-label">Téléphone</p>
+            <p class="contact-val">+261 33 68 046 49</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">✉️</div>
+          <div>
+            <p class="contact-label">Email</p>
+            <p class="contact-val">mickalior05@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon">📱</div>
+          <div>
+            <p class="contact-label">WhatsApp</p>
+            <p class="contact-val">+261 33 68 046 49</p>
+          </div>
+        </div>
+
+        <div class="horaires">
+          <h4>Horaires d'ouverture</h4>
+          <div class="horaire-row"><span>Lundi — Vendredi</span><span>09h00 — 19h00</span></div>
+          <div class="horaire-row"><span>Samedi</span><span>10h00 — 18h00</span></div>
+          <div class="horaire-row"><span>Dimanche</span><span>Sur rendez-vous</span></div>
+        </div>
+
+        <!-- Carte -->
+        <div class="map-wrap" style="margin-top:1.5rem;">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.346398530453!2d2.2969!3d48.8698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fc4e2608b41%3A0x3be70a0a1b0a5bce!2sChamps-%C3%89lys%C3%A9es!5e0!3m2!1sfr!2sfr!4v1"
+            style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+
+      <!-- Formulaire -->
+      <div class="contact-form-wrap reveal">
+        <div style="margin-bottom:2rem;">
+          <p class="section-sub">Écrivez-nous</p>
+          <h2 class="section-title" style="font-size:1.8rem;">Envoyer un <span>Message</span></h2>
+          <div class="gold-line"></div>
+        </div>
+
+        <form class="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="prenom">Prénom</label>
+              <input type="text" id="prenom" name="prenom" placeholder="Michaël" required/>
+            </div>
+            <div class="form-group">
+              <label for="nom">Nom</label>
+              <input type="text" id="nom" name="nom" placeholder="ANDRIANIRINA" required/>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Adresse email</label>
+            <input type="email" id="email" name="email" placeholder="mickalior05@gmail.com" required/>
+          </div>
+
+          <div class="form-group">
+            <label for="tel">Téléphone</label>
+            <input type="tel" id="tel" name="tel" placeholder="+261 33 00 00 00"/>
+          </div>
+
+          <div class="form-group">
+            <label for="modele">Modèle qui vous intéresse</label>
+            <select id="modele" name="modele">
+              <option value="">Choisir un modèle...</option>
+              <option>BMW M4 Competition</option>
+              <option>Porsche 911 Carrera S</option>
+              <option>Mercedes EQS AMG 53</option>
+              <option>Range Rover SVR</option>
+              <option>Audi A8 L 60 TFSI</option>
+              <option>Ferrari Roma Spider</option>
+              <option>Tesla Model S Plaid</option>
+              <option>Porsche Cayenne Turbo GT</option>
+              <option>Bentley Continental GT</option>
+              <option>Autre / Je ne sais pas encore</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="sujet">Sujet</label>
+            <select id="sujet" name="sujet">
+              <option value="">Type de demande...</option>
+              <option>Demande d'essai</option>
+              <option>Demande de devis</option>
+              <option>Renseignement général</option>
+              <option>Reprise de véhicule</option>
+              <option>Service après-vente</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Votre message</label>
+            <textarea id="message" name="message" placeholder="Bonjour, je souhaite..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-solid" style="width:100%; text-align:center; border:none; cursor:pointer; font-size:1rem;">
+            Envoyer le message
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="nav-logo">Auto<span>Showcase</span></span>
+        <p>Votre showroom automobile d'exception. Passion, luxe et performance.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="catalogue.html">Catalogue</a></li>
+          <li><a href="apropos.html">À propos</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Marques</h4>
+        <ul>
+          <li><a href="#">BMW</a></li>
+          <li><a href="#">Mercedes</a></li>
+          <li><a href="#">Porsche</a></li>
+          <li><a href="#">Audi</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="#">045/06 01 Bis . Ivory Avaratra</a></li>
+          <li><a href="#">FIANARANTSOA, 301</a></li>
+          <li><a href="#">+261 33 68 046 49</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 <span>AutoShowcase</span>. Tous droits réservés.</p>
+      <p>Projet universitaire — Développé par <span>Michaël</span></p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
